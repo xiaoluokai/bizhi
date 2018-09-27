@@ -1,0 +1,233 @@
+body,div,ul,li{
+	margin:0;
+	padding: 0;
+}
+#box{
+	position: absolute;
+}
+#bg{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+#display{
+	visibility: hidden;
+	position: fixed;
+	background-color: yellow;
+	transition: width 0.3s;
+	background-size: 100% 100%;
+	z-index: 6;
+}
+#back{
+	margin-left: 30px;
+	margin-top: 50px;
+}
+#down{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	opacity:0.7;
+	position: absolute;
+	transition: top 0.3s;
+}
+#down{
+	width: 100%;
+	height: 100px;
+	background-color: black;
+	opacity:0.7;
+	position: absolute;
+	transition: top 0.3s;
+}
+#down ul li{
+	opacity:1;
+	display: block;
+	height: 80px;
+	margin-top: 10px;
+	width: 60px;
+	float: right;
+	margin-right: 30px;
+}
+.shouye{
+	position: absolute;
+	float: left;
+	margin:0px;
+}
+#back{
+	width: 50px;
+}
+#logo{
+	position: fixed;
+}
+#logo img{
+	width: 100%;
+	height: 100%;
+}
+#head{
+	top: 5%;
+	left: 85%;
+	position: fixed;
+	width: 180px;
+}
+.shouye{
+	position: absolute;
+	float: left;
+	margin:0px;
+}
+#head img{
+	width: 30px;
+	height: 30px;
+}
+#head p{
+	position: absolute;
+	float: left;
+	left: 35px;
+	top: -8px;
+	font-size: 15px;
+	color: white;
+}
+#head a{
+	position: absolute;
+	color: blue;
+	left: 150px;
+	top: 7px;
+	font-size: 15px;
+}
+#search{
+	text-align: center;
+	position: absolute;
+	top: 35px;
+	left: 35px;
+	border: 1px solid #F0F8FF;
+	border-radius: 4px;
+}
+.picture{
+	background-color: yellow;
+	position: absolute;
+	transition: box-shadow 0.4s;
+	background-size: 100% 100%;
+}
+.picture:hover{
+	box-shadow: 3px 3px 10px white;
+}
+.car{
+	background-color: yellow;
+	position: absolute;
+	transition: box-shadow 0.4s;
+	background-size: 100% 100%;
+}
+.car:hover{
+	box-shadow: 3px 3px 10px white;
+}
+.heart{
+	margin-left: 70%;
+	margin-top: 33%;
+	width: 13%;
+	height: 20%;
+	z-index: 6;
+	background-size: 100% 100%;
+}
+.heart img{
+	width: 100%;
+	height: 100%;
+}
+#footer{
+	position: fixed;
+	height: 100px;
+}
+#footer ul{
+	list-style-type: none;
+}
+#footer ul li{
+	float: right;
+	margin-right: 80px;
+}
+#footer ul li u{
+	line-height: 50px;
+	font-size: 25px;
+	color: white;
+}
+#footer ul li u:hover{
+	box-shadow: 3px 3px 10px white;
+}
+.tuijian{
+	position: absolute;
+	color: white;
+	display: block;
+	text-align:center;
+	font-size: 150%;
+	background-color: red;
+}
+#back1{
+	position: fixed;
+	width: 80px;
+	height: 80px;
+	top:30px;
+	left: 50px;
+	z-index: 5;
+}
+#back1 img{
+	width: 100%;
+	height: 100%;
+}
+#logo{
+	margin-top:-60px;
+	margin-left: 90px;
+	color: white;
+	font-size: 50px;
+	position: fixed;
+}
+#login{
+	background-color: white;
+	position: fixed;
+	z-index: 3;
+	transition: left 0.3s;
+}
+#zhuce{
+	background-color: white;
+	position: fixed;
+	z-index: 4;
+	transition: left 0.3s;
+}
+#top1{
+	height: 10%;
+	width: 100%;
+	background-color: gray;
+	position: absolute;
+}
+#top1 p{
+	color: white;
+	font-size: 30px;
+	float: left;
+}
+#back2{
+	float: left;
+	margin-top: 25px;
+}
+#mid ul li{
+	list-style-type: none;
+}
+#mid img{
+	width: 80%;
+	height: 20%;
+	margin-left: 10%;
+	margin-top: 10%;
+	border-radius: 10px;
+}
+#mid p{
+	color: black;
+	font-size: 25px;
+	margin-left: 55px;
+}
+#mid a{
+	color: blue;
+	font-size: 15px;
+	margin-left: 140px;
+}
+#mid a:hover{
+	color: gray;
+	cursor: pointer;
+}
+#zhucea{
+	margin-top: 100px;
+	margin-left: 50px;
+}
